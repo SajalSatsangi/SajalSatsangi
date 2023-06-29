@@ -1,7 +1,7 @@
 ![logo](https://github.com/SajalSatsangi/SajalSatsangi/blob/main/sajal-banner.png)
 <h1><span id="element"></span></h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=500&color=0E8515&width=650&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Sajal+Satsangi;A+passionate+frontend+Web-developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=500&color=0E8515&width=700&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Sajal+Satsangi;A+passionate+frontend+Web-developer+%F0%9F%98%83)](https://git.io/typing-svg)
 
 ```javascript
 class Profile {
