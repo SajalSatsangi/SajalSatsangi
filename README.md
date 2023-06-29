@@ -60,14 +60,3 @@ console.log(profile.toString());
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sajalsatsangi&show_icons=true&locale=en" alt="sajalsatsangi" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sajalsatsangi&" alt="sajalsatsangi" /></p>
-
- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-  <!-- Setup and start animation -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Hi 👋, I\'m Sajal Satsangi', 'A passionate frontend Web-developer'],
-      typeSpeed: 50,
-      loop: true,
-    });
-  </script>
