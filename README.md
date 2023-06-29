@@ -1,7 +1,27 @@
 ![logo](https://github.com/SajalSatsangi/SajalSatsangi/blob/main/sajal-banner.png)
-<h1 align="center">Hi 👋, I'm Sajal Satsangi</h1>
-<h3 align="center">A passionate frontend Web-developer</h3>
+<h1><span id="element"></span></h1>
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=500&color=0E8515&width=650&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Sajal+Satsangi;A+passionate+frontend+Web-developer)](https://git.io/typing-svg)
+
+```javascript
+class Profile {
+
+constructor() {
+    this.name = "Sajal Satsangi";
+    this.username = "sajalsatsangi";
+    this.leetcode = "https://leetcode.com/Sajal_Satsangi/";
+  }
+  
+  toString() {
+    return this.name;
+  }
+}
+
+const profile = new Profile();
+console.log(profile.toString());
+
+```
+<br/>
 
 <img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
@@ -40,3 +60,14 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sajalsatsangi&show_icons=true&locale=en" alt="sajalsatsangi" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sajalsatsangi&" alt="sajalsatsangi" /></p>
+
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Hi 👋, I\'m Sajal Satsangi', 'A passionate frontend Web-developer'],
+      typeSpeed: 50,
+      loop: true,
+    });
+  </script>
