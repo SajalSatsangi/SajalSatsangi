@@ -1,3 +1,4 @@
+![logo](https://github.com/SajalSatsangi/SajalSatsangi/blob/main/sajal-banner.pdf)
 <h1 align="center">Hi 👋, I'm Sajal Satsangi</h1>
 <h3 align="center">A passionate frontend Web-developer from India</h3>
 
