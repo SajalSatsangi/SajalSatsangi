@@ -3,35 +3,22 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=500&color=0E8515&width=700&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Sajal+Satsangi;A+passionate+frontend+Web-developer+%F0%9F%98%83)](https://git.io/typing-svg)
 
-```javascript
+```React-Native
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, Linking } from 'react-native';
+import { View, Text } from 'react-native';
 
 const Profile = () => {
   const [profileData, setProfileData] = useState({
     name: "Sajal Satsangi",
     username: "sajalsatsangi",
-    leetcode: "leetcode.com/Sajal_Satsangi/",
+    leetcode: "https://leetcode.com/Sajal_Satsangi/",
     linkedin: "linkedin.com/in/sajal-satsangi-547802204/",
     github: "github.com/SajalSatsangi"
   });
 
-  const openLink = (url) => {
-    Linking.openURL(url);
-  };
-
   return (
     <View>
       <Text>{profileData.name}</Text>
-      <TouchableOpacity onPress={() => openLink(profileData.leetcode)}>
-        <Text>LeetCode Profile</Text>
-      </TouchableOpacity>
-      <TouchableOpacity onPress={() => openLink(profileData.linkedin)}>
-        <Text>LinkedIn Profile</Text>
-      </TouchableOpacity>
-      <TouchableOpacity onPress={() => openLink(profileData.github)}>
-        <Text>GitHub Profile</Text>
-      </TouchableOpacity>
     </View>
   );
 }
