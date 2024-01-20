@@ -4,21 +4,39 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=500&color=0E8515&width=700&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Sajal+Satsangi;A+passionate+frontend+Web-developer+%F0%9F%98%83)](https://git.io/typing-svg)
 
 ```javascript
-class Profile {
+import React, { useState } from 'react';
+import { View, Text, TouchableOpacity, Linking } from 'react-native';
 
-constructor() {
-    this.name = "Sajal Satsangi";
-    this.username = "sajalsatsangi";
-    this.leetcode = "https://leetcode.com/Sajal_Satsangi/";
-  }
-  
-  toString() {
-    return this.name;
-  }
+const Profile = () => {
+  const [profileData, setProfileData] = useState({
+    name: "Sajal Satsangi",
+    username: "sajalsatsangi",
+    leetcode: "leetcode.com/Sajal_Satsangi/",
+    linkedin: "linkedin.com/in/sajal-satsangi-547802204/",
+    github: "github.com/SajalSatsangi"
+  });
+
+  const openLink = (url) => {
+    Linking.openURL(url);
+  };
+
+  return (
+    <View>
+      <Text>{profileData.name}</Text>
+      <TouchableOpacity onPress={() => openLink(profileData.leetcode)}>
+        <Text>LeetCode Profile</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => openLink(profileData.linkedin)}>
+        <Text>LinkedIn Profile</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => openLink(profileData.github)}>
+        <Text>GitHub Profile</Text>
+      </TouchableOpacity>
+    </View>
+  );
 }
 
-const profile = new Profile();
-console.log(profile.toString());
+export default Profile;
 
 ```
 <br/>
@@ -26,13 +44,13 @@ console.log(profile.toString());
 <img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
 # 💫 About Me:
-- 🔭 I’m currently working on **DSA and Frontend Skills.**
+- 🔭 I’m currently working on **DSA and Android Development.**
 
-- 🌱 I’m currently learning **React and C++.**
+- 🌱 I’m currently learning **React-Native and C++.**
 
-- 👯 I’m looking to collaborate on **Web-Development Projects!**
+- 👯 I’m looking to collaborate on **Web-Development Projects! & Android-Development Projects!**
 
-- 🤝 I’m looking for help with **Web-Development?**
+- 🤝 I’m looking for help with **Android-Development?**
 
 - 💬 Ask me about **Web-Development.**
 
