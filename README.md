@@ -11,7 +11,7 @@ const Profile = () => {
   const [profileData, setProfileData] = useState({
     name: "Sajal Satsangi",
     username: "sajalsatsangi",
-    leetcode: "https://leetcode.com/Sajal_Satsangi/",
+    leetcode: "leetcode.com/Sajal_Satsangi/",
     linkedin: "linkedin.com/in/sajal-satsangi-547802204/",
     github: "github.com/SajalSatsangi"
   });
