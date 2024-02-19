@@ -67,3 +67,6 @@ export default Profile;
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sajalsatsangi&theme=dark" alt="sajalsatsangi" /></p>
 
+# 📊 Leetcode Stats:
+![](https://leetcard.jacoblin.cool/Sajal_Satsangi?ext=heatmap)
+
