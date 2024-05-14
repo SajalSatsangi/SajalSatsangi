@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SAJAL_GITHUB_TOKEN }}
           USERNAME: SajalSatsangi  # Replace with your actual username
       - name: Commit & Push
         run: |
